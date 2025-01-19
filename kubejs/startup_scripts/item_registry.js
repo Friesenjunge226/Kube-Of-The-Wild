@@ -5,6 +5,7 @@ ItemEvents.toolTierRegistry(event => {
     tier.attackDamageBonus = 99999.0
     tier.level = 99999
     tier.enchantmentValue = 0
+    tier.repairIngredient = 'minecraft:air'
   })
 })
 
@@ -23,6 +24,5 @@ ItemEvents.armorTierRegistry(event => {
 
 StartupEvents.registry('item', e => {
 
-  e.create('Master_Sword', 'sword').attackDamageBaseline(10.0).maxDamage(191).displayName("Master Sword").glowing(true).unstackable().rarity(rare)
-
+  e.create('Master_Sword', 'sword').attackDamageBaseline(30.0).maxDamage(191).displayName("Master Sword").glowing(true).unstackable().rarity(rare)
 })
