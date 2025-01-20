@@ -23,6 +23,23 @@ ItemEvents.armorTierRegistry(event => {
 
 
 StartupEvents.registry('item', e => {
+  //Admin tools and weapons
+  e.create('Ban_Hammer').tier('Admin').unstackable().rarity('rare').tooltip(oooh. Shiny)
+  e.create('Admin_Sword', 'sword').tier('Admin').unstackable().rarity('rare').tooltip(oooh. Shiny)
+  e.create('Admin_Axe', 'axe').tier('Admin').unstackable().rarity('rare').tooltip(oooh. Shiny)
+  e.create('Admin_Pickaxe', 'pickaxe').tier('Admin').unstackable().rarity('rare').tooltip(oooh. Shiny)
+  e.create('Admin_Shovel', 'shovel').tier('Admin').unstackable().rarity('rare').tooltip(oooh. Shiny)
+  e.create('Admin_Hoe', 'hoe').tier('Admin').unstackable().rarity('rare').tooltip(oooh. Shiny)
+  //Admin Armor
+  e.create('Admin_Helmet', 'helmet').tier('Admin').unstackable().rarity('rare').tooltip(oooh. Shiny)
+  e.create('Admin_Chestplate', 'chestplate').tier('Admin').unstackable().rarity('rare').tooltip(oooh. Shiny)
+  e.create('Admin_Leggings', 'leggings').tier('Admin').unstackable().rarity('rare').tooltip(oooh. Shiny)
+  e.create('Admin_Boots', 'boots').tier('Admin').unstackable().rarity('rare').tooltip(oooh. Shiny)
 
+  //community weapons
   e.create('Master_Sword', 'sword').attackDamageBaseline(30.0).maxDamage(191).displayName("Master Sword").glowing(true).unstackable().rarity(rare)
+  e.create('Travellers'
+
+  //food
+
 })
