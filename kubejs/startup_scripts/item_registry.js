@@ -38,8 +38,7 @@ StartupEvents.registry('item', e => {
 
   //community weapons
   e.create('Master_Sword', 'sword').attackDamageBaseline(30.0).maxDamage(191).displayName("Master Sword").glowing(true).unstackable().rarity(rare)
-  e.create('Travellers'
-
+  e.create('Travellers')
   //food
 
 })
