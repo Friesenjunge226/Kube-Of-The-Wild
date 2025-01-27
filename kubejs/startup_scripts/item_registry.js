@@ -61,29 +61,35 @@ StartupEvents.registry('item', e => {
    e.create('spiked_boko_sword', 'sword').displayName("Spiked Boko Club").attackDamageBaseline(12.0).maxDamage(14).unstackable().rarity('common').tooltip("A reinforced Bokoblin club made to maximize damage. The sharpened bones jabbed into it make it a brutal weapon")
    e.create('bone_boko_sword', 'sword').displayName("Dragonbone Boko Club").attackDamageBaseline(24.0).maxDamage(18).unstackable().rarity('common').tooltip("This Bokoblin club has been reinforced with fossilized bones to maximize clobbering potential. Only the brawniest of Bokoblins can manage its immense weight.")
    e.create('guardian_sword', 'sword').displayName("Guardian Sword").attackDamageBaseline(20.0).maxDamage(17).unstackable().rarity('common').tooltip("A sword often wielded by Guardian Scouts. Its blue energy blade is a product of ancient technology. It's not very durable.")
+   e.create('guardian_sword+', 'sword').displayName("Guardian Sword+").attackDamageBaseline(30.0).maxDamage(26).unstackable().rarity('common').tooltip("This Guardian sword has enhanced power over the standard model. Its cutting capabilities are improved, and its durability has seen a slight uptick.")
+   e.create('guardian_sword++', 'sword').displayName("Guardian Sword++").attackDamageBaseline(40.0).maxDamage(32).unstackable().rarity('common').tooltip("The abilities of this Guardian sword have been boosted to the maximum, as evidenced by its increase in size. It slices through armor like a hot knife through butter!")
+   e.create('lynel_sword', 'sword').displayName("Lynel Sword").attackDamageBaseline(24.0).maxDamage(26).unstackable().rarity('common').tooltip("This Lynel-made sword was designed with smashing in mind rather than slicing. It's on the heavy side compared to what Hylians are used to, but it's very strong.")
+   e.create('mighty_lynel_sword', 'sword').displayName("Mighty Lynel Sword").attackDamageBaseline(36.0).maxDamage(32).unstackable().rarity('common').tooltip("This Lynel-made sword boasts more blades and more attack power. A skilled Lynel can draw this sword simply in passing and still cut a foe in two.")
+   e.create('savage_lynel_sword', 'sword').displayName("Savage Lynel Sword").attackDamageBaseline(58.0).maxDamage(41).unstackable().rarity('common').tooltip("A brutal sword carried by white-haired Lynels. The savage blades are strong enough to cut down any foe, no matter how strong.")
+   e.create('vicious_sword', 'sword').displayName("Vicious Sickle").attackDamageBaseline(16.0).maxDamage(14).unstackable().rarity('common').tooltip("A grim weapon favored by the Yiga. The half-moon shape of the blade allows for the rapid delivery of fatal wounds and serves as a symbol of their terror. Its durability is low.")
+   e.create('demon_sword', 'sword').displayName("Demon Carver").attackDamageBaseline(40.0).maxDamage(25).unstackable().rarity('common').tooltip("This lethal weapon is forged by the Yiga. Its unique shape facilitates the sound dispatching of any target and strikes fear into the hearts of all who see it.")
+   e.create('boko_arm_sword', 'sword').displayName("Bokoblin Arm").attackDamageBaseline(5.0).maxDamage(5).unstackable().rarity('common').tooltip("A skeletal arm that keeps moving even after it's severed from its body. It's kind of gross to strap it to your back, but it'll do in a pinch. It's old and fragile, so it's quick to break.")
+   e.create('liza_arm_sword', 'sword').displayName("Lizalfos Arm").attackDamageBaseline(12.0).maxDamage(8).unstackable().rarity('common').tooltip("The arm of a Stalizalfos that continues to struggle even in death. It can be used as a weapon, but it's very brittle. You can feel it wiggling when you strap it to your back...")
+   e.create('farm_hoe', 'sword').displayName("Farming Hoe").attackDamageBaseline(16.0).maxDamage(6).unstackable().rarity('common').tooltip("A farming tool primarily used for tilling fields. Its fine craftsmanship is sturdy enough to withstand backbreaking fieldwork, but its battle applications are untested.")
+   e.create('oar', 'sword').displayName("Boat Oar").attackDamageBaseline(14.0).maxDamage(8).unstackable().rarity('common').tooltip("Made for paddling boats, but it was made sturdy enough to fight strong currents. Maybe it's useful for self-defense in a pinch.")
+   e.create('woodcutters_axe', 'axe').displayName("Woodcutter's Axe").attackDamageBaseline(3.0).maxDamage(47).unstackable().rarity('common').tooltip("A woodcutter's tool of choice for felling trees. Its formidable weight and uneven balancing make it a slow, inefficient weapon.")
+   e.create('double_axe', 'axe').displayName("Double Axe").attackDamageBaseline(.0).maxDamage().unstackable().rarity('common').tooltip("")
+   
 
 
 
 
-
-
-
-   e.create('', 'sword').displayName("").attackDamageBaseline().maxDamage().unstackable().rarity('common').tooltip("")
+   e.create('', 'sword').displayName("").attackDamageBaseline(.0).maxDamage().unstackable().rarity('common').tooltip("")
    
 
 
 
 })
+
 //food
-
-
 StartupEvents.registry('item', event => {
-	event.create('softener').displayName(Softener).attackDamageBaseline(20).maxDamage(1).food(food => {
-		food
-    		.hunger(-3)
-    		.saturation(-8)
-      		.effect('nausea', 600, 0, 1)
-      		.removeEffect('regeneration')
-      		.alwaysEdible()//Like golden apples
-	})
-  }
+	event.create('softener').displayName("Softener").attackDamageBaseline(20).maxDamage(1).tooltip("This is your fault, Emil").food(food => {food.hunger(-3).saturation(-8).effect('nausea', 600, 0, 1).removeEffect('regeneration').alwaysEdible()})
+
+
+
+  })
