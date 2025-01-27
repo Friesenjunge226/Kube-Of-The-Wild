@@ -71,4 +71,19 @@ StartupEvents.registry('item', e => {
    e.create('', 'sword').displayName("").attackDamageBaseline().maxDamage().unstackable().rarity('common').tooltip("")
    
 
+
+
 })
+//food
+
+
+StartupEvents.registry('item', event => {
+	event.create('softener').displayName(Softener).attackDamageBaseline(20).maxDamage(1).food(food => {
+		food
+    		.hunger(-3)
+    		.saturation(-8)
+      		.effect('nausea', 600, 0, 1)
+      		.removeEffect('regeneration')
+      		.alwaysEdible()//Like golden apples
+	})
+  }
