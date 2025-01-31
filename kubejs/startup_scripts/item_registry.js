@@ -123,10 +123,13 @@ StartupEvents.registry('item', e => {
    e.create('serpentine_spear', 'sword').displayName("Serpentine Spear").attackDamageBaseline(12.0).maxDamage(35).unstackable().rarity('common').tooltip("The spearhead of this weapon is uniquely Sheikah in design. Spear masters of the Sheikah tribe can use the crescent shape to snag their opponents and deliver brutal cuts")
    e.create('ancient_spear', 'sword').displayName("Ancient Spear").attackDamageBaseline(30.0).maxDamage(50).unstackable().rarity('common').tooltip("This spear is the result of countless hours of research into the ancient technology used by Guardians. The glowing spearhead has high piercing potential.")
    e.create('rusty_halbard', 'sword').displayName("Rusty Halbard").attackDamageBaseline(5.0).maxDamage(15).unstackable().rarity('common').tooltip("A rusty polearm likely used by knights from an age past. The spearhead is in bad shape due to prolonged exposure to the elements, so its durability is low.")
-   e.create('royalg_sword', 'sword').displayName("Roayl Guard's Spear").attackDamageBaseline(32.0).maxDamage(15).unstackable().rarity('common').tooltip("This Sheikah-made spear was created using ancient technology to combat the Calamity. Its attack power is very high, but a critical design flaw left it with poor durability.")
+   e.create('royalg_spear', 'sword').displayName("Roayl Guard's Spear").attackDamageBaseline(32.0).maxDamage(15).unstackable().rarity('common').tooltip("This Sheikah-made spear was created using ancient technology to combat the Calamity. Its attack power is very high, but a critical design flaw left it with poor durability.")
+   e.create('flamespear', 'sword').displayName("Flamespear").attackDamageBaseline(24.0).maxDamage(50).unstackable().rarity('uncommon').tooltip("A magical spear forged in the magma of Death Mountain. Attack when the blade glows to expel powerful flames.")
+   e.create('frostspear', 'sword').displayName("Frostspear").attackDamageBaseline(20.0).maxDamage(40).unstackable().rarity('uncommon').tooltip("A magical spear forged from ancient ice taken from the Hebra Mountains. Attack when the blade glows blue to chill the air and freeze your foe.")
+   e.create('thunderspear', 'sword').displayName("Thunderspear").attackDamageBaseline(22.0).maxDamage(50).unstackable().rarity('uncommon').tooltip("A magical spear that contains thunder from Thundra Plateau in its tip. Attack when the blade glows with a golden light to unleash an electrical attack.")
 
-  
-  
+
+
    e.create('', 'sword').displayName("").attackDamageBaseline(.0).maxDamage().unstackable().rarity('common').tooltip("")
 
    
