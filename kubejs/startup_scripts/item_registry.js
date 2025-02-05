@@ -127,19 +127,39 @@ StartupEvents.registry('item', e => {
    e.create('flamespear', 'sword').displayName("Flamespear").attackDamageBaseline(24.0).maxDamage(50).unstackable().rarity('uncommon').tooltip("A magical spear forged in the magma of Death Mountain. Attack when the blade glows to expel powerful flames.")
    e.create('frostspear', 'sword').displayName("Frostspear").attackDamageBaseline(20.0).maxDamage(40).unstackable().rarity('uncommon').tooltip("A magical spear forged from ancient ice taken from the Hebra Mountains. Attack when the blade glows blue to chill the air and freeze your foe.")
    e.create('thunderspear', 'sword').displayName("Thunderspear").attackDamageBaseline(22.0).maxDamage(50).unstackable().rarity('uncommon').tooltip("A magical spear that contains thunder from Thundra Plateau in its tip. Attack when the blade glows with a golden light to unleash an electrical attack.")
+   e.create('boko_spear', 'sword').displayName("Boko Spear").attackDamageBaseline(2.0).maxDamage(12).unstackable().rarity('common').tooltip("A spear recklessly carved from a tree branch. Useful for skewering fish and meat, which can then be cooked over a flame. If it's close to breaking, consider throwing it.")
+   e.create('sboko_spear', 'sword').displayName("Spiked Boko Spear").attackDamageBaseline(6.0).maxDamage(15).unstackable().rarity('common').tooltip("A Boko spear enhanced with sharpened animal bones. It's light, easy to use, and deals a decent amount of damage.")
+   e.create('dbone_boko_spear', 'sword').displayName("Dragonbone Boko Spear").attackDamageBaseline(12.0).maxDamage(20).unstackable().rarity('common').tooltip("This Boko spear has been strengthened with fossilized bones. The bones are positioned outward so the fangs bite at the opponent. Beware Bokoblins carrying this weapon.")
+   e.create('mob_spear', 'sword').displayName("Moblin Spear").attackDamageBaseline(4.0).maxDamage(15).unstackable().rarity('common').tooltip("This wooden spear is most often used by Moblins. It's made from a hastily whittled tree, so its stabbing power and durability are both pretty low.")
+   e.create('smob_spear', 'sword').displayName("Spiked Moblin Spear").attackDamageBaseline(9.0).maxDamage(20).unstackable().rarity('common').tooltip("This Moblin-made spear uses a horned animal bone as the spearhead. Like many Moblin weapons it's sloppily made, but this one packs some respectable piercing power.")
+   e.create('dbone_mob_spear', 'sword').displayName("Dragonbone Moblin Spear").attackDamageBaseline(15.0).maxDamage(25).unstackable().rarity('common').tooltip("This spear is a fan favorite among Moblins. The spearhead is made from fossilized bones adorned with spikes, which greatly increases its stabbing power.")
+   e.create('liza_spear', 'sword').displayName("Lizal Spear").attackDamageBaseline(7.0).maxDamage(18).unstackable().rarity('common').tooltip("The brutal, ripping edge of this weapon’s spearhead is a distinctly Lizalfos design. Its low durability doesn’t lend itself to extended use.")
+   e.create('eliza_spear', 'sword').displayName("Enhanced Lizal Spear").attackDamageBaseline(12.0).maxDamage(22).unstackable().rarity('common').tooltip("Judging by the harpoon-like spearhead of this Lizalfos-made spear, the Lizalfos use it for fishing as well as combat. Try not to get caught on the wrong end of its barbs.")
+   e.create('fliza_spear', 'sword').displayName("Forked Lizal Spear").attackDamageBaseline(18.0).maxDamage(28).unstackable().rarity('common').tooltip("Skilled Lizalfos warriors tend to favor this spear. What it lacks in piercing power, it makes up for with the brutal wounds its dual ripping blades will inflict.")
+   e.create('guardian_spear', 'sword').displayName("Guardian Spear").attackDamageBaseline(10.0).maxDamage(20).unstackable().rarity('common').tooltip("Wielded by Guardian Scouts, this spear has a high piercing power and is a testament to the Sheikah's high level of technology. the spearhead appears only when brandished.")
+   e.create('guardian_spear+', 'sword').displayName("Guardian Spear+").attackDamageBaseline(15.0).maxDamage(25).unstackable().rarity('common').tooltip("The tip of this Guardian spear has been enlarged and strengthened. It's a bit shorter than your average spear, perhaps to facilitate use in tight spaces.")
+   e.create('guardian_spear++', 'sword').displayName("Guardian Spear++").attackDamageBaseline(20.0).maxDamage(35).unstackable().rarity('common').tooltip("This Guardian spear's output has been boosted to the maximum. The spearhead is designed for optimal stabbing, capable of easily piercing most armor.")
+   e.create('lynel_spear', 'sword').displayName("Lynel Spear").attackDamageBaseline(14.0).maxDamage(25).unstackable().rarity('common').tooltip("The crescent-shaped spearhead of this Lynel-made weapon gives it poor balance, making it difficult to wield. Lynels, however, can swing it effectively with a single hand.")
+   e.create('mlynel_spear', 'sword').displayName("Mighty Lynel Spear").attackDamageBaseline(20.0).maxDamage(35).unstackable().rarity('common').tooltip("The weight and cutting edge of this Lynel-made spear have both been enhanced. It's immensely heavy for a Hylian, but a Lynel can cleave through rock with a single swing.")
+   e.create('slynel_spear', 'sword').displayName("Savage Lynel Spear").attackDamageBaseline(30.0).maxDamage(45).unstackable().rarity('common').tooltip("White-haired Lynels favor this brutal spear. Its axe-like spearhead and exceptional weight give it absolute destructive power.")
 
 
 
    e.create('', 'sword').displayName("").attackDamageBaseline(.0).maxDamage().unstackable().rarity('common').tooltip("")
 
    
+
+
 //axes
    e.create('woodcutters_axe', 'axe').displayName("Woodcutter's Axe").attackDamageBaseline(3.0).maxDamage(47).unstackable().rarity('common').tooltip("A woodcutter's tool of choice for felling trees. Its formidable weight and uneven balancing make it a slow, inefficient weapon.")
    e.create('double_axe', 'axe').displayName("Double Axe").attackDamageBaseline(18.0).maxDamage(52).unstackable().rarity('common').tooltip("This double-sided axe was designed with fighting in mind. It's a bit unwieldy, so it requires a well-practiced technique to use efficiently.")
    e.create('ancient_battle_axe', 'sword').displayName("Ancient Battle Axe").attackDamageBaseline(30.0).maxDamage(15).unstackable().rarity('common').tooltip("A weapon used by Guardian Scouts. Its unique blade was forged using ancient technology. Although powerful, its unusual shape causes it to break easily.")
    e.create('ancient_battle_axe+', 'sword').displayName("Ancient Battle Axe+").attackDamageBaseline(45.0).maxDamage(20).unstackable().rarity('common').tooltip("This ancient battle axe's damage output has been increased to maximum. It's sharp enough to cut through almost anything, so it may have been used to forge new routes.")
    e.create('ancient_battle_axe++', 'sword').displayName("Ancient Battle Axe++").attackDamageBaseline(60.0).maxDamage(25).unstackable().rarity('common').tooltip("This ancient battle axe's damage output is scaled up to peak performance. Ancient technology makes it possible to enhance cutting power beyond metal weapons' limits.")
-})
+  
+   //special community weapons
+   e.create('one_hit_sword', 'sword').displayName("One-Hit-Obliterator").attackDamageBaseline(99999.0).maxDamage(99999).unstackable().rarity('common').tooltip("A weapon that defeats foes with one hit and causes the user to die from one hit. It loses its sheen and power after two consecutive uses, but will eventually regain both.")
+  })
 
 
 
