@@ -2,6 +2,15 @@
 
     "item.kubejs.ban_hammer": "Bann Hammer",
     "item.kubejs.admin_sword": "Admin Schwert",
+    "item.kubejs.admin_axe": "Admin Axt",
+    "item.kubejs.admin_pickaxe": "Admin Spitzhacke",
+    "item.kubejs.admin_shovel": "Admin Schaufel",
+    "item.kubejs.admin_hoe": "Admin Hacke",
+
+    "item.kubejs.admin_helmet": "Admin Helm",
+    "item.kubejs.admin_chestplate": "Admin Brustpaltte",
+    "item.kubejs.admin_leggings": "Admin Hose",
+    "item_kubejs.admin_boots": "Admin Schuhe",
 
 
 
