@@ -13,9 +13,9 @@ This mod needs some Setup to work and I will walk you through it now:
 
 First, you need to install the Kubejs mod, the newer the better, but it is required to use a Minecraft version above 1.19.2 because of the new Syntax of the mod. I use 1.20.1 because most mods run on it and it has most of the useful features.
 
-*[Curseforge](https://www.curseforge.com/minecraft/mc-mods/kubejs)
-*[Modrinth](https://modrinth.com/mod/kubejs/versions)
-*[GitHub](https://github.com/KubeJS-Mods/KubeJS)
+* [Curseforge](https://www.curseforge.com/minecraft/mc-mods/kubejs)
+* [Modrinth](https://modrinth.com/mod/kubejs/versions)
+* [GitHub](https://github.com/KubeJS-Mods/KubeJS)
 
 Download the Kube of the Wild Project in .zip from this Github, unzip it and put it in the Folder of the Minecraft Profile. 
 
