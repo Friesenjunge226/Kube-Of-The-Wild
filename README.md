@@ -1,5 +1,3 @@
-[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-GPL-4.0-lightgrey.svg)](https://www.gnu.org/licenses/gpl-3.0.de.html)
-
 # Kube of the Wild
 
 **Welcome to the Kube of the Wild Project** 
