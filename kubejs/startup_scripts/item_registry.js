@@ -1,30 +1,28 @@
 ItemEvents.toolTierRegistry(event => {
   event.add('Admin', tier => {
-    tier.uses = 99999
+    tier.uses = 9999
     tier.speed = 0.1
-    tier.attackDamageBonus = 99999.0
-    tier.level = 99999
+    tier.attackDamageBonus = 9999.0
+    tier.level = 9999
     tier.enchantmentValue = 0
-    tier.repairIngredient = 'minecraft:air'
   })
 })
 
 ItemEvents.armorTierRegistry(event => {
   event.add('Admin', tier => {
-    tier.durabilityMultiplier = 99999 // Each slot will be multiplied with [13, 15, 16, 11]
+    tier.durabilityMultiplier = 9999 // Each slot will be multiplied with [13, 15, 16, 11]
     tier.slotProtections = [999, 999, 999, 999] // Slot indicies are [FEET, LEGS, BODY, HEAD] 
-    tier.enchantmentValue = 99999
-    tier.equipSound = 'minecraft:item.armor.equip_nerherite'
-    tier.repairIngredient = 'minecraft:air'
-    tier.toughness = 99999.0 // diamond has 2.0, netherite 3.0
-    tier.knockbackResistance = 99999.0
+    tier.enchantmentValue = 9999
+    tier.equipSound = 'minecraft:item.armor.equip_netherite'
+    tier.toughness = 9999.0 // diamond has 2.0, netherite 3.0
+    tier.knockbackResistance = 9999.0
   })
 })
 
 
 StartupEvents.registry('item', e => {
   //Admin tools
-   e.create('ban_hammer').tier('Admin').unstackable().rarity('rare').tooltip("oooh. Shiny")
+   e.create('admin_hammer', "sword").displayName("Ban Hammer").tier('Admin').unstackable().rarity('rare').tooltip("oooh. Shiny")
    e.create('admin_sword', 'sword').tier('Admin').unstackable().rarity('rare').tooltip("oooh. Shiny")
    e.create('admin_axe', 'axe').tier('Admin').unstackable().rarity('rare').tooltip("oooh. Shiny")
    e.create('admin_pickaxe', 'pickaxe').tier('Admin').unstackable().rarity('rare').tooltip("oooh. Shiny")
@@ -36,7 +34,7 @@ StartupEvents.registry('item', e => {
    e.create('admin_leggings', 'leggings').tier('Admin').unstackable().rarity('rare').tooltip("oooh. Shiny")
    e.create('admin_boots', 'boots').tier('Admin').unstackable().rarity('rare').tooltip("oooh. Shiny")
   //comunity weapons
-   e.create('master_sword', 'sword').attackDamageBaseline(30.0).maxDamage(20).displayName("Master Sword").glowing(true).unstackable().rarity('rare').tooltip("The Legendary sword that seals the darkness. It's blade gleams with a sacred luster that can oppose the Calamity. Only a hero chosen by the sword itself may wield it.")
+   e.create('master_sword', 'sword').attackDamageBaseline(30.0).glow(true).maxDamage(20).displayName("Master Sword").unstackable().rarity('rare').tooltip("The Legendary sword that seals the darkness. It's blade gleams with a sacred luster that can oppose the Calamity. Only a hero chosen by the sword itself may wield it.")
    e.create('tree_sword', 'sword').displayName("Tree Branch").attackDamageBaseline(2.0).maxDamage(4).unstackable().rarity('common').tooltip("Wooden branches such as this are pretty common, but it's urprisingly well-balanced. It doesn't do much damage but can serve as a weapon in a pinch.")
    e.create('traveller_sword', 'sword').displayName("Traveller's Sword").attackDamageBaseline(5.0).maxDamage(20).unstackable().rarity('common').tooltip("A very common sword often kept by travelers to fend off small beasts. It's fairly durable, but a bit unreliable against monsters.")
    e.create('soldier_bsword','sword').displayName("Soldier's Broadsword").attackDamageBaseline(14.0).maxDamage(25).unstackable().rarity('common').tooltip("A Sword brandished by the soldiers who once protected Hyrule Castle. Its durable blade is well tuned for slaying monsters.")
@@ -61,8 +59,8 @@ StartupEvents.registry('item', e => {
    e.create('spiked_boko_sword', 'sword').displayName("Spiked Boko Club").attackDamageBaseline(12.0).maxDamage(14).unstackable().rarity('common').tooltip("A reinforced Bokoblin club made to maximize damage. The sharpened bones jabbed into it make it a brutal weapon")
    e.create('bone_boko_sword', 'sword').displayName("Dragonbone Boko Club").attackDamageBaseline(24.0).maxDamage(18).unstackable().rarity('common').tooltip("This Bokoblin club has been reinforced with fossilized bones to maximize clobbering potential. Only the brawniest of Bokoblins can manage its immense weight.")
    e.create('guardian_sword', 'sword').displayName("Guardian Sword").attackDamageBaseline(20.0).maxDamage(17).unstackable().rarity('common').tooltip("A sword often wielded by Guardian Scouts. Its blue energy blade is a product of ancient technology. It's not very durable.")
-   e.create('guardian_sword+', 'sword').displayName("Guardian Sword+").attackDamageBaseline(30.0).maxDamage(26).unstackable().rarity('common').tooltip("This Guardian sword has enhanced power over the standard model. Its cutting capabilities are improved, and its durability has seen a slight uptick.")
-   e.create('guardian_sword++', 'sword').displayName("Guardian Sword++").attackDamageBaseline(40.0).maxDamage(32).unstackable().rarity('common').tooltip("The abilities of this Guardian sword have been boosted to the maximum, as evidenced by its increase in size. It slices through armor like a hot knife through butter!")
+   e.create('plus_guardian_sword', 'sword').displayName("Guardian Sword+").attackDamageBaseline(30.0).maxDamage(26).unstackable().rarity('common').tooltip("This Guardian sword has enhanced power over the standard model. Its cutting capabilities are improved, and its durability has seen a slight uptick.")
+   e.create('dplus_guardian_sword', 'sword').displayName("Guardian Sword++").attackDamageBaseline(40.0).maxDamage(32).unstackable().rarity('common').tooltip("The abilities of this Guardian sword have been boosted to the maximum, as evidenced by its increase in size. It slices through armor like a hot knife through butter!")
    e.create('lynel_sword', 'sword').displayName("Lynel Sword").attackDamageBaseline(24.0).maxDamage(26).unstackable().rarity('common').tooltip("This Lynel-made sword was designed with smashing in mind rather than slicing. It's on the heavy side compared to what Hylians are used to, but it's very strong.")
    e.create('mlynel_sword', 'sword').displayName("Mighty Lynel Sword").attackDamageBaseline(36.0).maxDamage(32).unstackable().rarity('common').tooltip("This Lynel-made sword boasts more blades and more attack power. A skilled Lynel can draw this sword simply in passing and still cut a foe in two.")
    e.create('slynel_sword', 'sword').displayName("Savage Lynel Sword").attackDamageBaseline(58.0).maxDamage(41).unstackable().rarity('common').tooltip("A brutal sword carried by white-haired Lynels. The savage blades are strong enough to cut down any foe, no matter how strong.")
@@ -137,25 +135,25 @@ StartupEvents.registry('item', e => {
    e.create('eliza_spear', 'sword').displayName("Enhanced Lizal Spear").attackDamageBaseline(12.0).maxDamage(22).unstackable().rarity('common').tooltip("Judging by the harpoon-like spearhead of this Lizalfos-made spear, the Lizalfos use it for fishing as well as combat. Try not to get caught on the wrong end of its barbs.")
    e.create('fliza_spear', 'sword').displayName("Forked Lizal Spear").attackDamageBaseline(18.0).maxDamage(28).unstackable().rarity('common').tooltip("Skilled Lizalfos warriors tend to favor this spear. What it lacks in piercing power, it makes up for with the brutal wounds its dual ripping blades will inflict.")
    e.create('guardian_spear', 'sword').displayName("Guardian Spear").attackDamageBaseline(10.0).maxDamage(20).unstackable().rarity('common').tooltip("Wielded by Guardian Scouts, this spear has a high piercing power and is a testament to the Sheikah's high level of technology. the spearhead appears only when brandished.")
-   e.create('guardian_spear+', 'sword').displayName("Guardian Spear+").attackDamageBaseline(15.0).maxDamage(25).unstackable().rarity('common').tooltip("The tip of this Guardian spear has been enlarged and strengthened. It's a bit shorter than your average spear, perhaps to facilitate use in tight spaces.")
-   e.create('guardian_spear++', 'sword').displayName("Guardian Spear++").attackDamageBaseline(20.0).maxDamage(35).unstackable().rarity('common').tooltip("This Guardian spear's output has been boosted to the maximum. The spearhead is designed for optimal stabbing, capable of easily piercing most armor.")
+   e.create('plus_guardian_spear', 'sword').displayName("Guardian Spear+").attackDamageBaseline(15.0).maxDamage(25).unstackable().rarity('common').tooltip("The tip of this Guardian spear has been enlarged and strengthened. It's a bit shorter than your average spear, perhaps to facilitate use in tight spaces.")
+   e.create('dplus_guardian_spear', 'sword').displayName("Guardian Spear++").attackDamageBaseline(20.0).maxDamage(35).unstackable().rarity('common').tooltip("This Guardian spear's output has been boosted to the maximum. The spearhead is designed for optimal stabbing, capable of easily piercing most armor.")
    e.create('lynel_spear', 'sword').displayName("Lynel Spear").attackDamageBaseline(14.0).maxDamage(25).unstackable().rarity('common').tooltip("The crescent-shaped spearhead of this Lynel-made weapon gives it poor balance, making it difficult to wield. Lynels, however, can swing it effectively with a single hand.")
    e.create('mlynel_spear', 'sword').displayName("Mighty Lynel Spear").attackDamageBaseline(20.0).maxDamage(35).unstackable().rarity('common').tooltip("The weight and cutting edge of this Lynel-made spear have both been enhanced. It's immensely heavy for a Hylian, but a Lynel can cleave through rock with a single swing.")
    e.create('slynel_spear', 'sword').displayName("Savage Lynel Spear").attackDamageBaseline(30.0).maxDamage(45).unstackable().rarity('common').tooltip("White-haired Lynels favor this brutal spear. Its axe-like spearhead and exceptional weight give it absolute destructive power.")
 
 
 
-   e.create('', 'sword').displayName("").attackDamageBaseline(.0).maxDamage().unstackable().rarity('common').tooltip("")
+   //e.create('', 'sword').displayName("").attackDamageBaseline(.0).maxDamage().unstackable().rarity('common').tooltip("")
 
-   
+   //+
 
 
 //axes
    e.create('woodcutters_axe', 'axe').displayName("Woodcutter's Axe").attackDamageBaseline(3.0).maxDamage(47).unstackable().rarity('common').tooltip("A woodcutter's tool of choice for felling trees. Its formidable weight and uneven balancing make it a slow, inefficient weapon.")
    e.create('double_axe', 'axe').displayName("Double Axe").attackDamageBaseline(18.0).maxDamage(52).unstackable().rarity('common').tooltip("This double-sided axe was designed with fighting in mind. It's a bit unwieldy, so it requires a well-practiced technique to use efficiently.")
    e.create('ancient_battle_axe', 'sword').displayName("Ancient Battle Axe").attackDamageBaseline(30.0).maxDamage(15).unstackable().rarity('common').tooltip("A weapon used by Guardian Scouts. Its unique blade was forged using ancient technology. Although powerful, its unusual shape causes it to break easily.")
-   e.create('ancient_battle_axe+', 'sword').displayName("Ancient Battle Axe+").attackDamageBaseline(45.0).maxDamage(20).unstackable().rarity('common').tooltip("This ancient battle axe's damage output has been increased to maximum. It's sharp enough to cut through almost anything, so it may have been used to forge new routes.")
-   e.create('ancient_battle_axe++', 'sword').displayName("Ancient Battle Axe++").attackDamageBaseline(60.0).maxDamage(25).unstackable().rarity('common').tooltip("This ancient battle axe's damage output is scaled up to peak performance. Ancient technology makes it possible to enhance cutting power beyond metal weapons' limits.")
+   e.create('plus_ancient_battle_axe', 'sword').displayName("Ancient Battle Axe+").attackDamageBaseline(45.0).maxDamage(20).unstackable().rarity('common').tooltip("This ancient battle axe's damage output has been increased to maximum. It's sharp enough to cut through almost anything, so it may have been used to forge new routes.")
+   e.create('dplus_ancient_battle_axe', 'sword').displayName("Ancient Battle Axe++").attackDamageBaseline(60.0).maxDamage(25).unstackable().rarity('common').tooltip("This ancient battle axe's damage output is scaled up to peak performance. Ancient technology makes it possible to enhance cutting power beyond metal weapons' limits.")
   
    //special community weapons
    e.create('one_hit_sword', 'sword').displayName("One-Hit-Obliterator").attackDamageBaseline(99999.0).maxDamage(99999).unstackable().rarity('common').tooltip("A weapon that defeats foes with one hit and causes the user to die from one hit. It loses its sheen and power after two consecutive uses, but will eventually regain both.")
@@ -165,7 +163,7 @@ StartupEvents.registry('item', e => {
 
 //food
 StartupEvents.registry('item', event => {
-	event.create('softener').displayName("Softener").attackDamageBaseline(20).maxDamage(1).tooltip("This is your fault, Emil").food(food => {food.hunger(-3).saturation(-8).effect('nausea', 600, 0, 1).removeEffect('regeneration').alwaysEdible()})
+	event.create('softener').displayName("Softener").maxDamage(1).tooltip("This is your fault, Emil").food(food => {food.hunger(-3).saturation(-8).effect('nausea', 600, 0, 1).removeEffect('regeneration').alwaysEdible()})
 
 
 
