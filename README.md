@@ -1,9 +1,13 @@
 # Kube of the Wild
 
+> This Project is _Very_ much work in progress and just has the weapons barely done. Please wait patiently, I'm working on it
+
 **Welcome to the Kube of the Wild Project** 
 This Project is a kind-of-Addon to the [The Legend of Zelda® in Minecraft® Project](https://m.youtube.com/watch?v=lmdl2Wu7PO0) of the Youtuber [Grazzy](www.youtube.com/grazzyy). This is a free project, and I do not plan on making any Money with it.
 
 I recommend you use a Mod Manager like [Curseforge](https://www.curseforge.com/download/app) or [Modrinth](https://modrinth.com/app) for this.
+
+> This is the experimental Branch, which will not always work. I'm commiting to this branch all the time and if it's ready, I release it to the main branch. Pleases respect that.
 
 Anyways, have fun!
 
