@@ -1,6 +1,6 @@
 # Kube of the Wild
 
-> This Project is _Very_ much work in progress and just has the weapons barely done. Please wait patiently, I'm working on it
+> This Project is _Very_ much work in progress and just has the weapons barely done(experimental). Please wait patiently, I'm working on it
 
 **Welcome to the Kube of the Wild Project** 
 This Project is a kind-of-Addon to the [The Legend of Zelda® in Minecraft® Project](https://m.youtube.com/watch?v=lmdl2Wu7PO0) of the Youtuber [Grazzy](https://www.youtube.com/grazzyy), but you still can play it witout the Map. This is a free project, and I do not plan on making any Money with it.
