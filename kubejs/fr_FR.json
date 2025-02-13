@@ -4,7 +4,7 @@ ItemEvents.toolTierRegistry((event) => {
     tier.speed = 0.1;
     tier.attackDamageBonus = 9999.0;
     tier.level = 9999;
-    tier.enchantmentValue = 0;
+    tier.enchantmentValue = 9999;
   });
 });
 ItemEvents.armorTierRegistry((event) => {
@@ -815,7 +815,7 @@ StartupEvents.registry('item', (e) => {
       'A rusty polearm likely used by knights from an age past. The spearhead is in bad shape due to prolonged exposure to the elements, so its durability is low.'
     );
   e.create('royalg_spear', 'sword')
-    .displayName("Roayl Guard's Spear")
+    .displayName("Royal Guard's Spear")
     .attackDamageBaseline(32.0)
     .maxDamage(15)
     .unstackable()
