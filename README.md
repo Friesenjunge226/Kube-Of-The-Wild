@@ -1,3 +1,4 @@
+![img.shields.io/badge/version-v_0.4.3-blue] [![Discord Banner 4](https://discordapp.com/api/guilds/1225836171762860113/widget.png?style=banner1)](https://discord.gg/34EHnHQaPm)
 # Kube of the Wild
 
 > This Project is _Very_ much work in progress and just has the weapons barely done. Please wait patiently, I'm working on it
