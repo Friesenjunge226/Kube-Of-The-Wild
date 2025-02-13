@@ -1,3 +1,3 @@
 files:
-  - source: kubejs/startup_scripts/
-    translation: /kubejs/%locale_with_underscore%.json
+  - source: kubejs/assets/kubejs/lang/en_us.json
+    translation: /kubejs/assets/kubejs/lang/%locale_with_underscore%.json
