@@ -34,7 +34,9 @@ StartupEvents.registry('item', e => {
    e.create('admin_leggings', 'leggings').tier('Admin').unstackable().rarity('rare').tooltip("oooh. Shiny")
    e.create('admin_boots', 'boots').tier('Admin').unstackable().rarity('rare').tooltip("oooh. Shiny")
   //comunity weapons
-   e.create('master_sword', 'sword').attackDamageBaseline(30.0).glow(true).maxDamage(20).displayName("Master Sword").unstackable().rarity('rare').tooltip("The Legendary sword that seals the darkness. It's blade gleams with a sacred luster that can oppose the Calamity. Only a hero chosen by the sword itself may wield it.")
+   e.create('pl_master_sword', 'sword').displayName("Powerless Master Sword").attackDamageBaseline(0.0).glow(true).displayName("Master Sword").unstackable().rarity('rare').tooltip("The Legendary sword that seals the darkness. It's blade gleams with a sacred luster that can oppose the Calamity. Only a hero chosen by the sword itself may wield it.")
+   e.create('master_sword', 'sword').attackDamageBaseline(30.0).glow(true).displayName("Master Sword").unstackable().rarity('rare').tooltip("The Legendary sword that seals the darkness. It's blade gleams with a sacred luster that can oppose the Calamity. Only a hero chosen by the sword itself may wield it.")
+   e.create('ac_master_sword', 'sword').displayName("Glowing Master Sword").attackDamageBaseline(60.0).glow(true).maxDamage(20).displayName("Master Sword").unstackable().rarity('rare').tooltip("The Legendary sword that seals the darkness. It's blade gleams with a sacred luster that can oppose the Calamity. Only a hero chosen by the sword itself may wield it.")
    e.create('tree_sword', 'sword').displayName("Tree Branch").attackDamageBaseline(2.0).maxDamage(4).unstackable().rarity('common').tooltip("Wooden branches such as this are pretty common, but it's urprisingly well-balanced. It doesn't do much damage but can serve as a weapon in a pinch.")
    e.create('traveller_sword', 'sword').displayName("Traveller's Sword").attackDamageBaseline(5.0).maxDamage(20).unstackable().rarity('common').tooltip("A very common sword often kept by travelers to fend off small beasts. It's fairly durable, but a bit unreliable against monsters.")
    e.create('soldier_bsword','sword').displayName("Soldier's Broadsword").attackDamageBaseline(14.0).maxDamage(25).unstackable().rarity('common').tooltip("A Sword brandished by the soldiers who once protected Hyrule Castle. Its durable blade is well tuned for slaying monsters.")
@@ -156,7 +158,8 @@ StartupEvents.registry('item', e => {
    e.create('dplus_ancient_battle_axe', 'sword').displayName("Ancient Battle Axe++").attackDamageBaseline(60.0).maxDamage(25).unstackable().rarity('common').tooltip("This ancient battle axe's damage output is scaled up to peak performance. Ancient technology makes it possible to enhance cutting power beyond metal weapons' limits.")
   
    //special community weapons
-   e.create('one_hit_sword', 'sword').displayName("One-Hit-Obliterator").attackDamageBaseline(99999.0).maxDamage(99999).unstackable().rarity('common').tooltip("A weapon that defeats foes with one hit and causes the user to die from one hit. It loses its sheen and power after two consecutive uses, but will eventually regain both.")
+   e.create('one_hit_sword', 'sword').displayName("One-Hit-Obliterator").attackDamageBaseline(99999.0).unstackable().rarity('common').tooltip("A weapon that defeats foes with one hit and causes the user to die from one hit. It loses its sheen and power after two consecutive uses, but will eventually regain both.")
+   e.create('pl_one_hit_sword', 'sword').displayName("Plwerless One-Hit-Obliterator").attackDamageBaseline(0.0).unstackable().rarity('common').tooltip("A weapon that defeats foes with one hit and causes the user to die from one hit. It loses its sheen and power after two consecutive uses, but will eventually regain both.")
   })
 
 
