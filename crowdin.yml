@@ -1,3 +1,0 @@
-files:
-  - source: kubejs/assets/kubejs/lang/en_us.json
-    translation: /kubejs/assets/kubejs/lang/%locale_with_underscore%.json
