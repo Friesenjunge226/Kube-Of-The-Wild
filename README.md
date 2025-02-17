@@ -26,7 +26,7 @@ Download the Kube of the Wild Project in .zip from this Github, unzip it and put
 
 >To open the Folder, click Options (Three dots) and then open folder.
 
-The folder structure should look like this now: 
+The folder structure should now roughly look like this: 
 
 ![image](https://github.com/user-attachments/assets/9909dbc3-ca0d-4427-a311-41dd1275a5c2)
 
