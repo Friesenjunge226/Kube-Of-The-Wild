@@ -28,8 +28,7 @@ Download the Kube of the Wild Project in .zip from this Github, unzip it and put
 
 The folder structure should look like this now: 
 
-![image](https://github.com/user-attachments/assets/ce488d81-8bde-4937-8db0-325516319809)
-
+![image](https://github.com/user-attachments/assets/9909dbc3-ca0d-4427-a311-41dd1275a5c2)
 
 Congratulations, you are ready to start Minecraft.
 If you encounter __any__ Errors with KubeJS you can make an Issue, to let me know. 
