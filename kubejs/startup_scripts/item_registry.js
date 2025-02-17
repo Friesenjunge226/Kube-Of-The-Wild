@@ -159,14 +159,16 @@ StartupEvents.registry('item', e => {
   
    //special community weapons
    e.create('one_hit_sword', 'sword').displayName("One-Hit-Obliterator").attackDamageBaseline(99999.0).unstackable().rarity('common').tooltip("A weapon that defeats foes with one hit and causes the user to die from one hit. It loses its sheen and power after two consecutive uses, but will eventually regain both.")
-   e.create('pl_one_hit_sword', 'sword').displayName("Plwerless One-Hit-Obliterator").attackDamageBaseline(0.0).unstackable().rarity('common').tooltip("A weapon that defeats foes with one hit and causes the user to die from one hit. It loses its sheen and power after two consecutive uses, but will eventually regain both.")
+   e.create('pl_one_hit_sword', 'sword').displayName("Powerless One-Hit-Obliterator").attackDamageBaseline(0.0).unstackable().rarity('common').tooltip("A weapon that defeats foes with one hit and causes the user to die from one hit. It loses its sheen and power after two consecutive uses, but will eventually regain both.")
+
+e.create("scrap_bat_blaser", "sword"). displayName("Scrap blaser").attackDamageBaseline(5000).maxDamage(3).unstackable().rarity("epic").tooltip("Yes, you read that right.")
   })
 
 
 
 //food
 StartupEvents.registry('item', event => {
-	event.create('softener').displayName("Softener").maxDamage(1).tooltip("This is your fault, Emil").food(food => {food.hunger(-3).saturation(-8).effect('nausea', 600, 0, 1).removeEffect('regeneration').alwaysEdible()})
+	event.create('softener').displayName("Softener").maxDamage(1).tooltip("This is your fault, Emil").rarity("epic").food(food => {food.hunger(-3).saturation(-8).effect('nausea', 600, 0, 1).removeEffect('regeneration').alwaysEdible()})
 
 
 
