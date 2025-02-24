@@ -6,6 +6,7 @@
 //key items
 
 e.create('classified_envelope').displayName("Classified Envelope").rarity('common').tooltip("Inside the envelope is a picture of a beautiful young woman of the Sheikah tribe.")
+
 e.create('rudania_power').displayName("Daruk's Protection").rarity('common').tooltip("A protective power containing the perfect defense of the Champion Daruk. It will automatically protect you from all manner of attacks as long as you're holding %1$a Button.")
 e.create('traveller_bridle').displayName("Traveller's Bridle").rarity('common').tooltip("Most often used in festivals, this gem of a bridle is decorated with some charming little feathers. It's great for adding just a splash of color to any horse.")
 e.create('traveller_saddle').displayName("Traveller's Saddle").rarity('common').tooltip("This ornamental saddle is used in festivals. The delicate embroidery and arrangement of gems leaves a lasting impression. It's perfect for those who want to stand out.")
@@ -50,3 +51,37 @@ e.create('dlc_naboris_power').displayName("Urbosa's Fury").rarity('uncommon').to
   e.create('heart_container').displayName("Heart Container").rarity('epic').tooltip("")
   e.create('Rupee').displayName("Rupee").rarity('epic').tooltip("")
   e.create('stamina_vessel').displayName("Stamina Vessel").rarity('epic').tooltip("")
+=======
+e.create('rudania_power').displayName("Daruk's Protection").rarity('common').tooltip("")
+
+  //DLC
+  e.create('dlc_rudania_power_plus').displayName("").rarity('common').tooltip("")
+  e.create('dlc_ancient_bridle').displayName("Ancient Bridle").rarity('common').tooltip("A mysterious bridle made with forgotten ancient technology. Equipping a horse with this will maximize their abilities, increasing the number of spurs associated with them.")
+  e.create('dlc_ancient_saddle').displayName("Ancient Saddle").rarity('common').tooltip("A mysterious saddle made with forgotten ancient technology. Equip a horse with this and use D-Pad Down to call them even when they are far away.")
+  e.create('').displayName("").rarity('common').tooltip("")
+  e.create('').displayName("").rarity('common').tooltip("")
+  e.create('').displayName("").rarity('common').tooltip("")
+  e.create('').displayName("").rarity('common').tooltip("")
+  e.create('').displayName("").rarity('common').tooltip("")
+  e.create('').displayName("").rarity('common').tooltip("")
+  e.create('').displayName("").rarity('common').tooltip("")
+  e.create('').displayName("").rarity('common').tooltip("")
+  e.create('').displayName("").rarity('common').tooltip("")
+  e.create('').displayName("").rarity('common').tooltip("")
+  e.create('').displayName("").rarity('common').tooltip("")
+  e.create('').displayName("").rarity('common').tooltip("")
+  e.create('').displayName("").rarity('common').tooltip("")
+  e.create('').displayName("").rarity('common').tooltip("")
+  e.create('').displayName("").rarity('common').tooltip("")
+  e.create('').displayName("").rarity('common').tooltip("")
+  e.create('').displayName("").rarity('common').tooltip("")
+  e.create('').displayName("").rarity('common').tooltip("")
+  e.create('').displayName("").rarity('common').tooltip("")
+
+
+  e.create('').displayName("").rarity('common').tooltip("")
+
+  //"gifts"
+
+  e.create('gift_hestu').displayName("Hestu's Gift").rarity('common').tooltip("")
+
