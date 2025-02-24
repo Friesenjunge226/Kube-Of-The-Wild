@@ -1,4 +1,7 @@
-![Badge](https://img.shields.io/badge/version-v_0.3.3-blue) [![Discord Banner 4](https://discordapp.com/api/guilds/1225836171762860113/widget.png?style=banner2)](https://discord.com/invite/b77hdjUuyX)
+![Badge](https://img.shields.io/badge/version-v_0.3.3-blue) [![GitHub issues](https://img.shields.io/github/issues-raw/Friesenjunge226/Kube-of-the-wild)](https://github.com/users/Friesenjunge226/projects/2)[![GitHub all releases](https://img.shields.io/github/downloads/Friesenjunge226/Kube-of-the-wild/total)](https://github.com/BlueMap-Minecraft/BlueMap/releases)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/Friesenjunge226/Kube-of-the-wild)](https://github.com/BlueMap-Minecraft/BlueMap/releases/latest)
+
+[![Discord Banner 4](https://discordapp.com/api/guilds/1225836171762860113/widget.png?style=banner2)](https://discord.com/invite/b77hdjUuyX)
 # Kube of the Wild
 
 > This Project is _Very_ much work in progress and just has the weapons barely done. Please wait patiently, I'm working on it
