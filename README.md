@@ -10,7 +10,7 @@ This Project is a kind-of-Addon to the [The Legend of Zelda® in Minecraft® Pro
 
 I recommend you use a Mod Manager like [Curseforge](https://www.curseforge.com/download/app) or [Modrinth](https://modrinth.com/app) for this.
 
-> This is the experimental Branch, which will not always work. I'm commiting to this branch all the time and if it's ready, I release it to the main branch. Pleases respect that.
+> This is the main Branch, which will hopefully always work. I'm commiting to this branch only, when a major update is ready. Please respect, that we're a small team.
 
 Anyways, have fun!
 
