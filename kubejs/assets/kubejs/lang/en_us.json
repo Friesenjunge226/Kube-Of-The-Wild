@@ -117,10 +117,10 @@
     "item.kubejs.mlynel_spear": "Mighty Lynel Spear",
     "item.kubejs.slynel_spear": "Savage Lynel Spear",
     "item.kubejs.woodcutters_axe": "Woodcutter's Axe"
-    "item.kubejs.double_axe": "Double Axe"
-    "item.kubejs.ancient_battle_axe": "Ancient Battle Axe+"
-    "item.kubejs.plus_ancient_battle_axe": "Ancient Battle Axe+"
-    "item.kubejs.dplus_ancient_battle_axe": "Ancient Battle Axe++"
-    "item.kubejs.one_hit_sword": "One-Hit-Obliterator"
+    "item.kubejs.double_axe": "Double Axe",
+    "item.kubejs.ancient_battle_axe": "Ancient Battle Axe+",
+    "item.kubejs.plus_ancient_battle_axe": "Ancient Battle Axe+",
+    "item.kubejs.dplus_ancient_battle_axe": "Ancient Battle Axe++",
+    "item.kubejs.one_hit_sword": "One-Hit-Obliterator",
     "item.kubejs.softener": "Softener"
 }
