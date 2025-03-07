@@ -158,13 +158,3 @@ StartupEvents.registry('item', e => {
    //special community weapons
    e.create('one_hit_sword', 'sword').displayName("One-Hit-Obliterator").attackDamageBaseline(99999.0).maxDamage(99999).unstackable().rarity('common').tooltip("A weapon that defeats foes with one hit and causes the user to die from one hit. It loses its sheen and power after two consecutive uses, but will eventually regain both.")
   })
-
-
-
-//food
-StartupEvents.registry('item', event => {
-	event.create('softener').displayName("Softener").maxDamage(1).tooltip("This is your fault, Emil").food(food => {food.hunger(-3).saturation(-8).effect('nausea', 600, 0, 1).removeEffect('regeneration').alwaysEdible()})
-
-
-
-  })

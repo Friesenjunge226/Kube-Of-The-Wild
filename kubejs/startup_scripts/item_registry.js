@@ -4,6 +4,7 @@
 
 
 //key items
+e.create('shieka_slate').displayName("Shieka Slate").rarity('epic')
 
 e.create('classified_envelope').displayName("Classified Envelope").rarity('common').tooltip("Inside the envelope is a picture of a beautiful young woman of the Sheikah tribe.")
 e.create('rudania_power').displayName("Daruk's Protection").rarity('common').tooltip("A protective power containing the perfect defense of the Champion Daruk. It will automatically protect you from all manner of attacks as long as you're holding %1$a Button.")
@@ -50,3 +51,16 @@ e.create('dlc_naboris_power').displayName("Urbosa's Fury").rarity('uncommon').to
   e.create('heart_container').displayName("Heart Container").rarity('epic').tooltip("")
   e.create('Rupee').displayName("Rupee").rarity('epic').tooltip("")
   e.create('stamina_vessel').displayName("Stamina Vessel").rarity('epic').tooltip("")
+
+
+//Runes
+  e.create('rune_magnesis').displayName("Magnesis").rarity('rare').tooltip("Manipulate metallic objects using magnetism. Grab on to metallic objects using the magnetic energy that pours forth from the Magnesis rune. Objects held in the magnetic snare can be lifted up and moved freely")
+  e.create('rune_rbomb').displayName("Round Bomb").rarity('rare').tooltip("A bomb that can be detonated remotely. The force of the blast can be used to damage monsters or destroy objects. There are both round and cube bombs, so use whichever best fits the situation.")
+  e.create('rune_cbomb').displayName("Cubical Bomb").rarity('rare').tooltip("Stop the flow of time for an object. Stops an object in time while storing its kinetic energy. The stored energy will act upon the object when the flow of time resumes. Making good use of the stored energy can move even the largest of objects.")
+  e.create('rune_stasis').displayName("Stasis").rarity('rare').tooltip("Create a pillar of ice from a water surface. Builds ice pillars that are very stable. These pillars can be used as stepping stones or as obstacles. Use Cryonis on an ice pillar to break it.")
+  e.create('rune_cryo').displayName("Cryonis").rarity('rare').tooltip("")
+  e.create('rune_zero').displayName("Master Cycle Zero").rarity('rare').tooltip("")
+  e.create('rune_amiibo').displayName("Amiibo").rarity('rare').tooltip("")
+  e.create('rune_cam').displayName("Camera").rarity('rare').tooltip("")
+  e.create('album').displayName("Album").rarity('rare').tooltip("")
+  e.create('rune_sensor').displayName("").rarity('rare').tooltip("")
