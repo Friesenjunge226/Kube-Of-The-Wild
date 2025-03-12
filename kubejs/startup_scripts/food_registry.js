@@ -58,7 +58,23 @@ StartupEvents.registry('item', event => {
   event.create('rice').displayName("Hylian Rice").tooltip("This grain is a favorite among residents of Kakariko Village. It's grown in regions with a lot of water and is quite versatile. Used as an ingredient in things like risotto and rice balls.").food(food => {food.hunger(2).saturation(0)})
   event.create('bird_egg').displayName("Bird Egg").tooltip("A fresh bird egg necessary for making dishes such as omelets and crepes. You can snag them from birds' nests if you're sneaky. Nutritious and delicious, perfect.").food(food => {food.hunger(2).saturation(0)})
   event.create('wheat').displayName("Tabantha Wheat").tooltip("This grain is cultivated extensively on the Tabantha Plains. It's ground finely with a millstone to be used in cooking. Use it to make things such as stews and breads.").food(food => {food.hunger(2).saturation(0)})
+  event.create('cane_sugar').displayName("Cane Sugar").tooltip("When boiled with other ingredients, the cane breaks down into a sweet juice necessary for making cakes and other sweets. It's commonly found in ingredients stores.")
+  event.create('goat_butter').displayName("Goat Butter").tooltip("Butter made from the milk of a domesticated white goat. In addition to being used in dishes like stews and meunière. It's often used when making cakes and other sweets.")
   event.create('').displayName("").tooltip("")
+  event.create('').displayName("").tooltip("")
+  event.create('').displayName("").tooltip("")
+  event.create('').displayName("").tooltip("")
+  event.create('').displayName("").tooltip("")
+  event.create('').displayName("").tooltip("")
+  event.create('').displayName("").tooltip("")
+  event.create('').displayName("").tooltip("")
+  event.create('').displayName("").tooltip("")
+  event.create('').displayName("").tooltip("")
+  event.create('').displayName("").tooltip("")
+  event.create('').displayName("").tooltip("")
+  event.create('').displayName("").tooltip("")
+  event.create('').displayName("").tooltip("")
+  
   //Seafood
 
   //crabs
