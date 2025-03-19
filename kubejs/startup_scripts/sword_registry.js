@@ -158,3 +158,4 @@ StartupEvents.registry('item', e => {
    //special community weapons
    e.create('one_hit_sword', 'sword').displayName("One-Hit-Obliterator").attackDamageBaseline(99999.0).maxDamage(99999).unstackable().rarity('common').tooltip("A weapon that defeats foes with one hit and causes the user to die from one hit. It loses its sheen and power after two consecutive uses, but will eventually regain both.")
   })
+

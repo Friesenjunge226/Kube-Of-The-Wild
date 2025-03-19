@@ -4,6 +4,7 @@
 
 
 //key items
+
 e.create('shieka_slate').displayName("Shieka Slate").rarity('epic')
 
 e.create('classified_envelope').displayName("Classified Envelope").rarity('common').tooltip("Inside the envelope is a picture of a beautiful young woman of the Sheikah tribe.")
