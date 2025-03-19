@@ -1,5 +1,5 @@
-  {
-    "item.kubejs.ban_hammer": "Ban Hammer",
+{
+   "item.kubejs.ban_hammer": "Ban Hammer",
     "item.kubejs.admin_sword": "Admin Sword",
     "item.kubejs.admin_axe": "Admin Axe",
     "item.kubejs.admin_pickaxe": "Admin Pickaxe",
@@ -122,5 +122,5 @@
     "item.kubejs.plus_ancient_battle_axe": "Ancient Battle Axe+",
     "item.kubejs.dplus_ancient_battle_axe": "Ancient Battle Axe++",
     "item.kubejs.one_hit_sword": "One-Hit-Obliterator",
-
+    "item.kubejs.softener": "Softener"
 }
