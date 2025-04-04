@@ -2,7 +2,7 @@
 
 StartupEvents.registry('item', event => {
 	//custom
-  event.create('softener').displayName("Softener").maxDamage(1).tooltip("This is your fault, Emil").food(food => {food.hunger(-3).saturation(-8).effect('nausea', 600, 0, 1).removeEffect('regeneration').alwaysEdible()})
+  event.create('softener').displayName("Softener").maxDamage(1).tooltip("This is your fault, Emil").food(food => {food.hunger(0).saturation(-8).effect('nausea', 600, 0, 1).removeEffect('regeneration').alwaysEdible()})
   //fruit
   event.create('apple').displayName("Apple").tooltip("A common fruit found on trees all around Hyrule. Eat it fresh, or cook it to increase its effect.").food(food => {food.hunger().saturation()})
   event.create('palm_fruit').displayName("Palm Fruit").tooltip("Fruit from palm trees that grow near the ocean. It doesn't offer any special effects but will increase your heart recovery when used as an ingredient.").food(food => {food.hunger(1).saturation(0)})
