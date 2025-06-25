@@ -18,7 +18,7 @@ Anyways, have fun!
 
 This mod needs some Setup to work and I will walk you through it now:
 
-First, you need to install the Kubejs mod, the newer the better, but it is required to use a Minecraft version above 1.19.2 because of the new Syntax of the mod. I use 1.20.1 because most mods run on it and it has most of the useful features.
+First, you need to install the Kubejs mod, the newer the better, but it is required to use a Minecraft version above 1.19.2 because of the new Syntax of the mod. It is tested for 1.20.1.
 
 * [Curseforge](https://www.curseforge.com/minecraft/mc-mods/kubejs)
 * [Modrinth](https://modrinth.com/mod/kubejs/versions)
