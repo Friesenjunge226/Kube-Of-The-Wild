@@ -154,6 +154,7 @@ StartupEvents.registry('item', e => {
    e.create('ancient_battle_axe', 'sword').displayName("Ancient Battle Axe").attackDamageBaseline(30.0).maxDamage(15).unstackable().rarity('common').tooltip("A weapon used by Guardian Scouts. Its unique blade was forged using ancient technology. Although powerful, its unusual shape causes it to break easily.")
    e.create('plus_ancient_battle_axe', 'sword').displayName("Ancient Battle Axe+").attackDamageBaseline(45.0).maxDamage(20).unstackable().rarity('common').tooltip("This ancient battle axe's damage output has been increased to maximum. It's sharp enough to cut through almost anything, so it may have been used to forge new routes.")
    e.create('dplus_ancient_battle_axe', 'sword').displayName("Ancient Battle Axe++").attackDamageBaseline(60.0).maxDamage(25).unstackable().rarity('common').tooltip("This ancient battle axe's damage output is scaled up to peak performance. Ancient technology makes it possible to enhance cutting power beyond metal weapons' limits.")
+
   //arrows
   e.create('fire_arrow').displayName("Fire Arrow").rarity('common').tooltip("")
   e.create('ice_arrow').displayName("Ice Arrow").rarity('common').tooltip("")

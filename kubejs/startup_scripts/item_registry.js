@@ -2,6 +2,7 @@
 
 
 
+
 StartupEvents.registry('item', e => {
 //key items
 e.create('shieka_slate').displayName("Shieka Slate").rarity('epic')
@@ -64,5 +65,4 @@ e.create('dlc_naboris_power').displayName("Urbosa's Fury").rarity('uncommon').to
   e.create('rune_cam').displayName("Camera").rarity('rare').tooltip("")
   e.create('album').displayName("Album").rarity('rare').tooltip("")
   e.create('rune_sensor').displayName("").rarity('rare').tooltip("")
-
 })
