@@ -1,6 +1,7 @@
 [![GitHub issues](https://img.shields.io/github/issues-raw/Friesenjunge226/Kube-of-the-wild)](https://github.com/users/Friesenjunge226/projects/2)  [![GitHub all releases](https://img.shields.io/github/downloads/Friesenjunge226/Kube-of-the-wild/total)](https://github.com/Friesenjunge226/Kube-of-the-wild/releases)  [![GitHub release (latest by date)](https://img.shields.io/github/v/release/Friesenjunge226/Kube-of-the-wild)](https://github.com/Friesenjunge226/Kube-of-the-wild/releases/latest)
 
 [![Discord Banner 4](https://discordapp.com/api/guilds/1225836171762860113/widget.png?style=banner2)](https://discord.com/invite/b77hdjUuyX)
+
 # Kube of the Wild
 
 > This Project is _Very_ much work in progress and just has the weapons barely done. Please wait patiently, I'm working on it
@@ -12,14 +13,17 @@ I recommend you use a Mod Manager like [Curseforge](https://www.curseforge.com/d
 
 > This is the main Branch, which will hopefully always work. I'm commiting to this branch only, when a major update is ready. Please respect, that we're a small team.
 
+
 Anyways, have fun!
 
 # Installation
 
 This mod needs some Setup to work and I will walk you through it now:
 
-First, you need to install the Kubejs mod, the newer the better, but it is required to use a Minecraft version above 1.19.2 because of the new Syntax of the mod. It is tested for 1.20.1.
 
+First, you need to install the KubeJS Mod, in a Minecraft Version above 1.19.2. So far it has been tested on 1.20.1.
+ 
+ 
 * [Curseforge](https://www.curseforge.com/minecraft/mc-mods/kubejs)
 * [Modrinth](https://modrinth.com/mod/kubejs/versions)
 * [GitHub](https://github.com/KubeJS-Mods/KubeJS)

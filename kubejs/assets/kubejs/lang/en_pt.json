@@ -1,5 +1,5 @@
-  {
-    "item.kubejs.ban_hammer": "Ban Hammer",
+{
+   "item.kubejs.ban_hammer": "Ban Hammer",
     "item.kubejs.admin_sword": "Admin Sword",
     "item.kubejs.admin_axe": "Admin Axe",
     "item.kubejs.admin_pickaxe": "Admin Pickaxe",
@@ -116,7 +116,6 @@
     "item.kubejs.lynel_spear": "Lynel Spear",
     "item.kubejs.mlynel_spear": "Mighty Lynel Spear",
     "item.kubejs.slynel_spear": "Savage Lynel Spear",
-
     "item.kubejs.woodcutters_axe": "Woodcutter's Axe",
     "item.kubejs.double_axe": "Double Axe",
     "item.kubejs.ancient_battle_axe": "Ancient Battle Axe+",
