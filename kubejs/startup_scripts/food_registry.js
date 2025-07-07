@@ -48,23 +48,39 @@ StartupEvents.registry('item', event => {
   event.create('courser_bee_honey').displayName("Courser Bee Honey").tooltip("Honey straight from the hive is chock-full of nutrients. Cooking this into a meal unlocks the potential of these nutrients and provides a stamina-recovery effect.").food(food => {food.hunger(4).saturation(1)})
   event.create('rice').displayName("Hylian Rice").tooltip("This grain is a favorite among residents of Kakariko Village. It's grown in regions with a lot of water and is quite versatile. Used as an ingredient in things like risotto and rice balls.").food(food => {food.hunger(2).saturation(0)})
   event.create('bird_egg').displayName("Bird Egg").tooltip("A fresh bird egg necessary for making dishes such as omelets and crepes. You can snag them from birds' nests if you're sneaky. Nutritious and delicious, perfect.").food(food => {food.hunger(2).saturation(0)})
-  event.create('wheat').displayName("Tabantha Wheat").tooltip("This grain is cultivated extensively on the Tabantha Plains. It's ground finely with a millstone to be used in cooking. Use it to make things such as stews and breads.").food(food => {food.hunger(2).saturation(0)})
-  event.create('').displayName("").tooltip("")
-  event.create('').displayName("").tooltip("")
-  event.create('').displayName("").tooltip("")
-  event.create('').displayName("").tooltip("")
-  event.create('').displayName("").tooltip("")
-  event.create('').displayName("").tooltip("")
-  event.create('').displayName("").tooltip("")
-  event.create('').displayName("").tooltip("")
-  event.create('').displayName("").tooltip("")
-  event.create('').displayName("").tooltip("")
-  event.create('').displayName("").tooltip("")
-  event.create('').displayName("").tooltip("")
-  event.create('').displayName("").tooltip("")
-  event.create('').displayName("").tooltip("")
-  
-  //Seafood
+  event.create('wheat').displayName("Tabantha Wheat").tooltip("This grain is cultivated extensively on the Tabantha Plains. It's ground finely with a millstone to be used in cooking. Use it to make things such as stews and breads.").food(food => {food.hunger(2).saturation(0)}
+  event.create('milk').displayName("Fresh Milk").tooltip("This fresh milk comes from Hateno cows and white goats kept in the village. It's delicious on its own but can also be used as an ingredient in soups and stews.").food(food => {food.hunger(1).saturation(0)}
+  event.create('hyrule_bass').displayName("Hyrule Bass").tooltip("An ordinary fish that can be found all over Hyrule. Can be eaten raw, but cooking it amplifies its healing benefits.").food(food => {food.hunger(2).saturation(0)}
+  event.create('staminoka_bass').displayName("Staminoka Bass").tooltip("This Hyrule bass got to be the biggest fish by never getting caught (until now). Its long life results in a cooked dish that will restore a lot of stamina.").food(food => {food.hunger(2).saturation(0)}
+  event.create('hearty_bass').displayName("Hearty Bass").tooltip("This large fish lives near the shoreline. Its sizable body can restore a lot of nutrient. When cooked into a dish, it will temporarily increase your maximum hearts.").food(food => {food.hunger(4).saturation(2)}
+  event.create('chillfin_trout').displayName("Chillfin Trout").tooltip("This blue trout prefers cold bodies of water. Its skin contains enzymes that keep its body cool, and when cooked into a dish, it will temporarily boost your heat resistance.").food(food => {food.hunger(2).saturation(0)}
+  event.create('voltfin_trout').displayName("Voltfin Trout").tooltip("This trout makes its home in the freshwater lakes. Its scales have an insulating compound that, when cooked into a dish, offers resistance to electricity.").food(food => {food.hunger(2).saturation(0)}
+  event.create('sizzlefin_trout').displayName("Sizzlefin Trout").tooltip("This red trout prefers warm bodies of water. It has a special organ specifically for storing heat. When cooked into a dish, it temporarily boosts your resistance to the cold.").food(food => {food.hunger(2).saturation(0)}
+  event.create('steathfin_trout').displayName("Stealthfin Trout").tooltip("Consuming the bioluminescent compound that makes this fish glow in the dark will increase concentration. Dishes cooked with it will suppress noise when consumed.").food(food => {food.hunger(2).saturation(0)}
+  event.create('hearty_salmon').displayName("Hearty Salmon").tooltip("This fish makes its home in cold water, giving it extra layers of fat. It temporarily increases your maximum hearts when used in cooking.").food(food => {food.hunger(8).saturation(4)}
+  event.create('mighty_carp').displayName("Mighty Carp").tooltip("This freshwater fish lives alongside its less mighty carp ilk. A compound in its liver promotes muscle growth. Dishes cooked with it will temporarily increase your attack power.").food(food => {food.hunger(2).saturation(0)}
+  event.create('armored_carp').displayName("Armored Carp").tooltip("Calcium deposits in the scales of this ancient fish make them as hard as armor. Cooking it into a dish will fortify your bones, temporarily increasing your defense.").food(food => {food.hunger(2).saturation(0)}
+  event.create('sanke_carp').displayName("Sanke Carp").tooltip("This wild armored carp has been bred into a prizewinning fish. Its beautifully colored markings do not occur in nature. It offers no special effects when cooked.").food(food => {food.hunger(2).saturation(0)}
+  event.create('mighty_porgy').displayName("Mighty Porgy").tooltip("This ocean-dwelling fish comes with one rude attitude. The compounds in its flesh elevate your competitive spirit when it's cooked into a dish, thus increasing your attack power.").food(food => {food.hunger(2).saturation(0)}
+  event.create('armored_porgy').displayName("Armored Porgy").tooltip("This porgy's body is covered in armor-hard scales. The compounds in its scales, when cooked into a dish, fortify your bones and temporarily boost your defense.").food(food => {food.hunger(2).saturation(0)}
+  //snails																										     
+  event.create('sneaky_river_snail').displayName("Sneaky River Snail").tooltip("This large, glow-in-the-dark snail lives in fresh water. When cooked into a dish, it heightens your senses so you can move about silently.").food(food => {food.hunger(2).saturation(0)}
+  event.create('hearty_blueshell_snail').displayName("").tooltip("").food(food => {food.hunger(2).saturation(0)}
+  event.create('').displayName("").tooltip("").food(food => {food.hunger(2).saturation(0)}
+  event.create('').displayName("").tooltip("").food(food => {food.hunger(2).saturation(0)}
+  event.create('').displayName("").tooltip("").food(food => {food.hunger(2).saturation(0)}
+  event.create('').displayName("").tooltip("").food(food => {food.hunger(2).saturation(0)}
+  event.create('').displayName("").tooltip("").food(food => {food.hunger(2).saturation(0)}
+  event.create('').displayName("").tooltip("").food(food => {food.hunger(2).saturation(0)}
+  event.create('').displayName("").tooltip("").food(food => {food.hunger(2).saturation(0)}
+  event.create('').displayName("").tooltip("").food(food => {food.hunger(2).saturation(0)}
+  event.create('').displayName("").tooltip("").food(food => {food.hunger(2).saturation(0)}
+  event.create('').displayName("").tooltip("").food(food => {food.hunger(2).saturation(0)}
+  event.create('').displayName("").tooltip("").food(food => {food.hunger(2).saturation(0)}
+  event.create('').displayName("").tooltip("").food(food => {food.hunger(2).saturation(0)}
+  event.create('').displayName("").tooltip("").food(food => {food.hunger(2).saturation(0)}
+  event.create('').displayName("").tooltip("").food(food => {food.hunger(2).saturation(0)}
+  event.create('').displayName("").tooltip("").food(food => {food.hunger(2).saturation(0)}
 
   //crabs
 
