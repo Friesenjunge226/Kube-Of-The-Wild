@@ -4,7 +4,8 @@ StartupEvents.registry('item', event => {
 	//custom
   event.create('softener').displayName("Softener").maxDamage(1).tooltip("This is your fault, Emil").food(food => {food.hunger(0).saturation(-8).effect('nausea', 600, 0, 1).removeEffect('regeneration').alwaysEdible()})
   //fruit
-  event.create('apple').displayName("Apple").tooltip("A common fruit found on trees all around Hyrule. Eat it fresh, or cook it to increase its effect.").food(food => {food.hunger().saturation()})
+
+  event.create('apple').displayName("Apple").tooltip("A common fruit found on trees all around Hyrule. Eat it fresh, or cook it to increase its effect.").food(food => {food.hunger(1).saturation(0)})
   event.create('palm_fruit').displayName("Palm Fruit").tooltip("Fruit from palm trees that grow near the ocean. It doesn't offer any special effects but will increase your heart recovery when used as an ingredient.").food(food => {food.hunger(1).saturation(0)})
   event.create('wildberry').displayName("Wildberry").tooltip("A fruit that grows in cold, snowy regions known for its tangy, sweet flavor. It doesn't offer any special effects, but it's a popular cooking ingredient").food(food => {food.hunger(2).saturation(0)})
   event.create('durian').displayName("Hearty Durian").tooltip("This fruit's odor earned it the nickname 'king of fruits'. It offers immense restorative power; dishes cooked with it will temporarily increase your maximum hearts.").food(food => {food.hunger(1).saturation(0)})
@@ -19,7 +20,7 @@ StartupEvents.registry('item', event => {
   //mushrooms
   event.create('hylian_shroom').displayName("Hylian Shroom").tooltip("A common mushroom found near trees around Hyrule. Eat it to restore half a heart.").food(food => {food.hunger(1).saturation(0)})
   event.create('endura_shroom').displayName("Endura Shroom").tooltip("A rare yellowish-orange mushroom. Cook it before eating to temporarily increase your stamina limit.").food(food => {food.hunger(2).saturation(0)})
-  event.create('stamella').displayName("Stamella Shroom").tooltip("A green mushroom that grows near trees in the forest. It's chock-full of natural energy. Cook it to release its stamina-restoration properties.").food(food => {food.hunger(2).saturation()})
+  event.create('stamella').displayName("Stamella Shroom").tooltip("A green mushroom that grows near trees in the forest. It's chock-full of natural energy. Cook it to release its stamina-restoration properties.").food(food => {food.hunger(2).saturation(0)})
   event.create('truffel').displayName("Hearty Truffel").tooltip("This rare mushroom has a rich scent. Cook it before eating to temporarily increase your maximum hearts.").rarity("uncommon").food(food => {food.hunger(4).saturation(1)})
   event.create('big_truffel').displayName("Big Hearty Truffel").tooltip("Years of going unpicked have allowed this hearty truffle to grow quite large. It's chock-full of nutrients. When cooked into a dish, it temporarily increases your maximum hearts.").rarity("uncommon").food(food => {food.hunger(6).saturation(2)})
   event.create('chill_shroom').displayName("Chillshroom").tooltip("Often found at the base of pine trees in cold climates, these mushrooms are cool to the touch and can be used to cook dishes that allow you to stay cool even in arid regions.").food(food => {food.hunger(1).saturation(0)})
@@ -27,7 +28,7 @@ StartupEvents.registry('item', event => {
   event.create('zapshroom').displayName("Zapshroom").tooltip("This mushroom grows wild in the Gerudo region. The cap is naturally insulated, so when used in cooking, it will offer protection against electricity.").food(food => {food.hunger(1).saturation(0)})
   event.create('rushroom').displayName("Rushroom").tooltip("A mushroom that can grow almost anywhere but prefers ceilings and sheer cliffs. Cook it before eating to temporarily increase your movement speed.").food(food => {food.hunger(1).saturation(0)})
   event.create('razorshroom').displayName("Razorshroom").tooltip("This mushroom is known for the natural slice in its cap. Eating it fosters your competitive spirit. Use it when cooking to prepare a dish that will increase your strength.").food(food => {food.hunger(1).saturation(0)})
-  event.create('ironshroom').displayName("Ironshroom").tooltip("The cap of this mushroom is very hard. Use it when cooking to prepare a dish that increases your defense.").food(food => {food.hunger().saturation()})
+  event.create('ironshroom').displayName("Ironshroom").tooltip("The cap of this mushroom is very hard. Use it when cooking to prepare a dish that increases your defense.").food(food => {food.hunger(1).saturation(0)})
   event.create('silent_shroom').displayName("Silent Shroom").tooltip("A strange mushroom that glows quietly in the forest at night. Cooking it into a dish unlocks the nutrients in its cap, resulting in a meal that will allow you to move stealthily.").food(food => {food.hunger(1).saturation(0)})
   //plant
   event.create('hyrule_herb').displayName("Hyrule Herb").tooltip("This healthy herb grows abundantly in the plains of Hyrule. Cook it before eating to increase the number of hearts it restores.").food(food => {food.hunger(2).saturation(0)})
