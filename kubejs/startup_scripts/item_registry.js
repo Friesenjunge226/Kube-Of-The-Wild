@@ -1,7 +1,4 @@
 //priority: 1
-
-
-
 StartupEvents.registry('item', e => {
 //key items
 e.create('shieka_slate').displayName("Shieka Slate").rarity('epic')
@@ -52,7 +49,6 @@ e.create('dlc_naboris_power').displayName("Urbosa's Fury").rarity('uncommon').to
   e.create('Rupee').displayName("Rupee").rarity('epic').tooltip("")
   e.create('stamina_vessel').displayName("Stamina Vessel").rarity('epic').tooltip("")
 
-
 //Runes
   e.create('rune_magnesis').displayName("Magnesis").rarity('rare').tooltip("Manipulate metallic objects using magnetism. Grab on to metallic objects using the magnetic energy that pours forth from the Magnesis rune. Objects held in the magnetic snare can be lifted up and moved freely")
   e.create('rune_rbomb').displayName("Round Bomb").rarity('rare').tooltip("A bomb that can be detonated remotely. The force of the blast can be used to damage monsters or destroy objects. There are both round and cube bombs, so use whichever best fits the situation.")
@@ -64,5 +60,6 @@ e.create('dlc_naboris_power').displayName("Urbosa's Fury").rarity('uncommon').to
   e.create('rune_cam').displayName("Camera").rarity('rare').tooltip("")
   e.create('album').displayName("Album").rarity('rare').tooltip("")
   e.create('rune_sensor').displayName("").rarity('rare').tooltip("")
+
 
 })

@@ -8,7 +8,9 @@ This Project is a kind-of-Addon to the [The Legend of Zelda® in Minecraft® Pro
 
 I recommend you use a Mod Manager like [Curseforge](https://www.curseforge.com/download/app) or [Modrinth](https://modrinth.com/app) for this.
 
+
 > This is the experimental Branch, which will not always work. I'm commiting to this branch all the time and if it's ready, I release it to the main branch. Pleases respect that.
+
 
 Anyways, have fun!
 
@@ -16,7 +18,9 @@ Anyways, have fun!
 
 This mod needs some Setup to work and I will walk you through it now:
 
+
 First, you need to install the Kubejs mod, the newer the better, but it is required to use a Minecraft version above 1.19.2 because of the new Syntax of the mod. I use 1.20.1 because most mods run on it and it has most of the useful features.
+
 
 * [Curseforge](https://www.curseforge.com/minecraft/mc-mods/kubejs)
 * [Modrinth](https://modrinth.com/mod/kubejs/versions)
