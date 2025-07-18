@@ -123,5 +123,8 @@
     "item.kubejs.plus_ancient_battle_axe": "Ancient Battle Axe+",
     "item.kubejs.dplus_ancient_battle_axe": "Ancient Battle Axe++",
     "item.kubejs.one_hit_sword": "One-Hit-Obliterator",
-    "item.kubejs.softener": "Softener"
+    "item.kubejs.softener": "Softener",
+    "item.kubejs.luminous_stone": "Luminous Stone",
+    "item.kubejs.luminous_stone.tooltip": "This mysterious mineral gives off a pale blue glow in the dark, which some believe to be souls of the undead. Apparently, this stone can be used as a base to make special clothing."
+    
 }
