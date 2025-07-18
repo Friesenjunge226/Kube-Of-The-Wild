@@ -67,35 +67,12 @@ StartupEvents.registry('item', event => {
   //snails																										     
   event.create('sneaky_river_snail').displayName("Sneaky River Snail").tooltip("This large, glow-in-the-dark snail lives in fresh water. When cooked into a dish, it heightens your senses so you can move about silently.").food(food => {food.hunger(2).saturation(0)}
   event.create('hearty_blueshell_snail').displayName("").tooltip("").food(food => {food.hunger(2).saturation(0)}
-  event.create('').displayName("").tooltip("").food(food => {food.hunger(2).saturation(0)}
-  event.create('').displayName("").tooltip("").food(food => {food.hunger(2).saturation(0)}
-  event.create('').displayName("").tooltip("").food(food => {food.hunger(2).saturation(0)}
-  event.create('').displayName("").tooltip("").food(food => {food.hunger(2).saturation(0)}
-  event.create('').displayName("").tooltip("").food(food => {food.hunger(2).saturation(0)}
-  event.create('').displayName("").tooltip("").food(food => {food.hunger(2).saturation(0)}
-  event.create('').displayName("").tooltip("").food(food => {food.hunger(2).saturation(0)}
-  event.create('').displayName("").tooltip("").food(food => {food.hunger(2).saturation(0)}
-  event.create('').displayName("").tooltip("").food(food => {food.hunger(2).saturation(0)}
-  event.create('').displayName("").tooltip("").food(food => {food.hunger(2).saturation(0)}
-  event.create('').displayName("").tooltip("").food(food => {food.hunger(2).saturation(0)}
-  event.create('').displayName("").tooltip("").food(food => {food.hunger(2).saturation(0)}
-  event.create('').displayName("").tooltip("").food(food => {food.hunger(2).saturation(0)}
-  event.create('').displayName("").tooltip("").food(food => {food.hunger(2).saturation(0)}
-  event.create('').displayName("").tooltip("").food(food => {food.hunger(2).saturation(0)}
-
   //crabs
-
-  //insects
-
-  //frogs
-
-  //monster parts
-
-  //dragon pars
-
-  //ores
-
-  //other
+  event.create('razorclaw_crab').displayName("Razorclaw Crab").tooltip("This crab is well known for its exceptionally sharp pincers. When cooked, the strength compound in its claws will increase your attack power.").food(food => {food.hunger(2).saturation(0)}
+  event.create('ironshell_crab').displayName("Ironshell Crab").tooltip("This crab's shell is particularly hard. When cooked into a dish, its fat and meat bolster the body to increase your defense.").food(food => {food.hunger(2).saturation(0)}
+  event.create('brighteyed_crab').displayName("Bright-Eyed Crab").tooltip("This crab appears in large numbers when it rains. On bite of its delectable meat, and you'll forget all your exhaustion. Replenishes your stamina when cooked into a dish.").food(food => {food.hunger(2).saturation(0)}
+ //others
+  event.create('fairy').displayName("Fairy").tooltip("This fairy will fly from your pouch and heal all your wounds the moment you lose your last heart. It's easily mistaken for a firefly at first, but it glows in the daylight as well as night.").rarity("epic").food(food => {food.hunger(10).saturation(20)}
   event.create('fairy').displayName("Fairy").tooltip("This fairy will fly from your pouch and heal all your wounds the moment you lose your last heart. It's easily mistaken for a firefly at first, but it glows in the daylight as well as night.").food(food => {food.hunger(0).saturation(20)}).maxStackSize(999)
   event.create('flint').displayName("Flint").tooltip("Strike it with a metallic weapon to generate a spark. The portable fire starter breaks after one use, but it can create a long-lasting flame if you use it near firewood.").maxStackSize(999)
   event.create('wood').displayName("Wood").tooltip("A portable bundle of wood. You can use this to make a campfire if you have something to light it.").maxStackSize(999)
