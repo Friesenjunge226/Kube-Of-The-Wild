@@ -66,7 +66,7 @@ StartupEvents.registry('item', event => {
   event.create('armored_porgy').displayName("Armored Porgy").tooltip("This porgy's body is covered in armor-hard scales. The compounds in its scales, when cooked into a dish, fortify your bones and temporarily boost your defense.").food(food => {food.hunger(2).saturation(0)}
   //snails																										     
   event.create('sneaky_river_snail').displayName("Sneaky River Snail").tooltip("This large, glow-in-the-dark snail lives in fresh water. When cooked into a dish, it heightens your senses so you can move about silently.").food(food => {food.hunger(2).saturation(0)}
-  event.create('hearty_blueshell_snail').displayName("").tooltip("").food(food => {food.hunger(2).saturation(0)}
+  event.create('hearty_blueshell_snail').displayName("Hearty Blueshell Snail").tooltip("This snail lives on sandy beaches in large numbers. Its flesh contains a high amount of stimulants, so when cooked into a dish, it temporarily increases your maximum hearts.").food(food => {food.hunger(6).saturation(2)}
   //crabs
   event.create('razorclaw_crab').displayName("Razorclaw Crab").tooltip("This crab is well known for its exceptionally sharp pincers. When cooked, the strength compound in its claws will increase your attack power.").food(food => {food.hunger(2).saturation(0)}
   event.create('ironshell_crab').displayName("Ironshell Crab").tooltip("This crab's shell is particularly hard. When cooked into a dish, its fat and meat bolster the body to increase your defense.").food(food => {food.hunger(2).saturation(0)}
