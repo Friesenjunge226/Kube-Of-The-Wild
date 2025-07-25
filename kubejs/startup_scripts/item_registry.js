@@ -5,7 +5,6 @@
 
 StartupEvents.registry('item', e => {
 //key items
-e.create('shieka_slate').displayName("Shieka Slate").rarity('epic')
 
 e.create('classified_envelope').displayName("Classified Envelope").rarity('common').tooltip("Inside the envelope is a picture of a beautiful young woman of the Sheikah tribe.")
 e.create('rudania_power').displayName("Daruk's Protection").rarity('common').tooltip("A protective power containing the perfect defense of the Champion Daruk. It will automatically protect you from all manner of attacks as long as you're holding %1$a Button.")
